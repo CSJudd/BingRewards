@@ -118,6 +118,9 @@ def earnRewards(config, httpHeaders, userAgents, reportItem, password):
     finally:
         if not noException:
             print
+            print
+            print
+            print "=" * 80
             print "For: %s - %s" % (reportItem.accountType, reportItem.accountLogin)
             print
             print "-" * 80
@@ -231,6 +234,8 @@ def __run(config):
 
     if showFullReport or totalPoints > 0 and len(report) > 1:
         print
+        print
+        print "=" * 80
         print "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= FINAL REPORT =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
         print
         print "            Account           | Before | After  | Earned |  Lifetime  | Retries "

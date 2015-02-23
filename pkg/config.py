@@ -223,6 +223,11 @@ class Config:
                 raise ConfigError("accounts.account.password is not found")
             acc.password = val.text
 
+            val = account.find("queriesGenerator")
+            if val is None:
+                raise ConfigError("accounts.account.queriesGenerator is not found")
+            acc.generator = val.text
+
             self.accounts[acc.getRef()] = acc
 
     def __parseEvents(self, xmlEventsNode):

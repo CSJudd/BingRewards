@@ -27,18 +27,22 @@
         <account type="Facebook" disabled="false">
             <login>john.smith@gmail.com</login>
             <password>xxx</password>
+            <queriesGenerator="wikipedia" />
         </account>
         <account type="Facebook" disabled="true">
             <login>blabla@mail.com</login>
             <password>xxx</password>
+            <queriesGenerator="wikipedia" />
         </account>
         <account type="Live" disabled="false">
             <login>gogo@hotmail.com</login>
             <password>xxx</password>
+            <queriesGenerator="wikipedia" />
         </account>
         <account type="Live" disabled="false">
             <login>hoho@hotmail.com</login>
             <password>xxx</password>
+            <queriesGenerator="bing" />
         </account>
     </accounts>
 
